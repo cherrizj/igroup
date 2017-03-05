@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello iGroup',
+    motto: 'Wake Up Neo!',
     userInfo: {}
   },
   //事件处理函数
@@ -12,11 +12,13 @@ Page({
       url: '../logs/logs'
     })
   },
+  
   changeName: function(e) {
     this.setData({
-      motto: 'Wake Up Neo!'
+      motto: 'Hello iGroup'
     })
   },
+
   onLoad: function () {
     console.log('onLoad')
     var that = this
