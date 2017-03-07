@@ -8,7 +8,6 @@
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
   border-radius: 50%;
 }
 
@@ -17,5 +16,9 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 10px;
+}
+
+.usermotto button{
+  margin-top: 5px;
 }
