@@ -12,7 +12,13 @@ Page({
       url: '../logs/logs'
     })
   },
-  
+  scan:function(cb){
+    wx.scanCode({
+      success: (res) => {
+        console.log(res)
+      }
+    })
+  },
   changeName: function(e) {
     this.setData({
       motto: 'Hello iGroup'
