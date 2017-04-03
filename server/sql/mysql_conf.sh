@@ -1,0 +1,7 @@
+#! /bin/sh
+HOSTNAME="127.0.0.1"
+PORT="3306"
+USERNAME="root"
+PASSWORD="MhxzKhl2017"
+DBNAME="Db_IGroup_"
+TABLENAME=""
