@@ -12,6 +12,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  goToTextarea: function() {
+    wx.navigateTo({
+      url: '../textarea/textarea'
+    })
+  },
   scan:function(cb){
     wx.scanCode({
       success: (res) => {
