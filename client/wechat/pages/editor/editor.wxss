@@ -1,0 +1,10 @@
+.editor-page {
+    padding: 0 10px;
+}
+.editor {
+    height: 300px;
+    border: 2px dashed red;
+    width: 100%;
+    margin: 5px 0;
+    flex-direction: column;
+}

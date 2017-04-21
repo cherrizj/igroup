@@ -1,0 +1,7 @@
+<!--textarea.wxml-->
+<view class="editor-page">
+  <form bindsubmit="bindFormSubmit">
+    <textarea class="editor" auto-focus placeholder="我的笔记" name="textarea"/>
+    <button form-type="submit"> 提交 </button>
+  </form>
+</view>
