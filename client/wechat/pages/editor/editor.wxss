@@ -1,10 +1,21 @@
 .editor-page {
     padding: 0 10px;
 }
+
 .editor {
-    height: 300px;
-    border: 2px dashed red;
-    width: 100%;
-    margin: 5px 0;
-    flex-direction: column;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+.sumbit-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    background: #efefef;
 }
