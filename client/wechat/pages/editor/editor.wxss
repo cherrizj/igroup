@@ -6,9 +6,11 @@
     position: absolute;
     top: 0;
     padding: 5px;
-    bottom: 30px;
+    bottom: 50px;
     left: 0;
     right: 0;
+    width: auto;
+    height: auto;
 }
 
 .sumbit-area {

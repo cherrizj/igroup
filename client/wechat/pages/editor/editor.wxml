@@ -1,7 +1,7 @@
 <!--textarea.wxml-->
 <view class="editor-page">
   <form bindsubmit="bindFormSubmit">
-    <textarea class="editor" auto-focus placeholder="我的笔记" name="textarea"/>
+    <textarea class="editor" auto-focus placeholder="...首行自动存为标题" name="textarea"/>
     <div class="sumbit-area">
         <button type="primary" form-type="submit">提 交</button>
     </div>
