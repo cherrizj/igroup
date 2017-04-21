@@ -2,6 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
+    "pages/test/test",
+    "pages/editor/editor",
     "pages/textarea/textarea"
   ],
   "window":{
